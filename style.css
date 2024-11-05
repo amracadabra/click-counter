@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(69, 55, 39);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+h1{
+    color: wheat;
+    font-size: 100px;
+    font-weight: lighter;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin:0;
+    padding-top: 20px;
+    }
+#counterDisplay{
+    margin: 20px auto;
+    color: chocolate;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    font-weight:normal;
+    }
+#incrementButton{
+    display: block;
+    margin:20px auto;
+    width: 300px;
+    font-size: 40px;
+    color: rgb(33, 15, 0);
+    background-color: beige;
+    text-align:center;
+    border-radius: 300px;
+    border-color:wheat;
+    border-width: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}    
+#resetButton{
+    background-color: beige;
+    display: block;
+    margin:20px auto;
+    width: 300px;
+    font-size: 40px;
+    color: rgb(33, 15, 0);
+    text-align:center;
+    border-radius: 300px;
+    border-color:rgb(33, 15, 0);
+    border-width: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}    
